@@ -1,0 +1,33 @@
+# Relatórios e saídas de testes do Robot Framework
+resultados/
+reports/
+output.xml
+log.html
+report.html
+*.png
+*.html
+*.txt
+
+# Perfis temporários do Chrome e cache de navegador
+chrome_stream_*
+.config/chrome_stream_*
+
+# Python & Sistema
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
